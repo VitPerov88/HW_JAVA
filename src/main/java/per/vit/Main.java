@@ -26,7 +26,6 @@ public class Main {
             System.out.println("aLong < aDouble");
         else
             System.out.println("aLong >= aDouble");
-
     }
 
 }
