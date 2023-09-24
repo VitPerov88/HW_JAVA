@@ -8,19 +8,20 @@ public class Main {
         byte aByte = 90;
         byte bByte = 110;
         short aShort = 11111;
+        int aInt = 1000;
         long aLong = 1000000;
         float aFloat = 3.14f;
         double aDouble = 111111.12;
         //Математические операторы
-        System.out.println("вывод переполнения\n" + b); //вывод переполнения
-        System.out.println("сумма двух байтов с записью в инт\n" +  aByte + bByte); //Переполнения не произошло!!! потому что сложение преобразовывает оператор в int
-        System.out.println("сложение\n" + aShort + aLong);
-        System.out.println("умножение\n" + aShort * 5);
-        System.out.println("деление\n" + aLong / aShort);
-        System.out.println("возврат остатка от деления\n" + aDouble % aFloat );
-        System.out.println("деление значений с плавающей точкой\n" + aDouble / aFloat );
-        //System.out.println("вычитание значений с плавающей точкой\n" + aFloat - aDouble );//не получилось вставить комментарий внутрь println, выдает ошибку
-        System.out.println( aFloat - aDouble );
+        System.out.println(b); //вывод переполнения
+        System.out.println( aByte + bByte ); //Переполнения не произошло!!! потому что сложение преобразовывает оператор в int
+        System.out.println( aShort + aLong );//сложение
+        System.out.println( aShort * 5 );//умножение
+        System.out.println( aLong / aShort );//деление
+        System.out.println( aDouble % aFloat );//возврат остатка от деления
+        System.out.println( aDouble / aFloat );//деление значений с плавающей точкой
+        System.out.println( aFloat - aDouble );//вычитание значений с плавающей точкой
+        System.out.println( aInt + aDouble ); //вычисления комбинаций типов данных
         //Логические операторы
         if (aLong < aDouble)
             System.out.println("aLong < aDouble");
