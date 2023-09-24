@@ -13,7 +13,6 @@ build/
 .gradle
 gradlew.bat
 gradlew
-build.gradle
 </>gradle.xml
 settings.gradle
 
