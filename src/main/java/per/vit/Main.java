@@ -22,6 +22,7 @@ public class Main {
         System.out.println( aDouble / aFloat );//деление значений с плавающей точкой
         System.out.println( aFloat - aDouble );//вычитание значений с плавающей точкой
         System.out.println( aInt + aDouble ); //вычисления комбинаций типов данных
+        System.out.println( aInt - aFloat );
         //Логические операторы
         if (aLong < aDouble)
             System.out.println("aLong < aDouble");
